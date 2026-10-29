@@ -79,7 +79,7 @@ I chose a NAT Network because multiple VMs on the same NAT Network can communica
 ### Step 3. Import and Start Kali Linux
 I imported the Kali Linux VirtualBox image (`kali-linux-2026.3-virtualbox-amd64`) into VirtualBox, connected it to `NatNetwork`, and started the VM. Kali booted successfully to the desktop.
 
-![Kali Linux Desktop](images/03-kali-desktop.png)
+![Kali Linux Desktop](images/03-kali-desktop(2).png)
 
 ### Step 4. Verify the Kali IP Address
 I opened the Kali terminal and checked the IP configuration with `ip a`. The `eth0` interface is `UP` with the address `10.0.0.2/24`.
@@ -88,7 +88,7 @@ I opened the Kali terminal and checked the IP configuration with `ip a`. The `et
 ip a
 ```
 
-![ip a output](images/04-ip-address.png)
+![ip a output](images/04-ip-address(2).png)
 
 ---
 
@@ -134,4 +134,45 @@ Nmap **7.99** is installed and working.
 
 ![nmap version](images/07-nmap-version.png)
 ---
+## 💡 What I Learned
 
+Through this project, I learned:
+
+- **NAT Network:** how a NAT Network lets multiple VMs talk to each other while still reaching the Internet.
+- **VM networking:** how a VirtualBox network adapter attaches a VM to a virtual network.
+- **IP configuration:** how to check and verify the IP address, gateway and DNS on Kali Linux.
+- **Network testing:** how to use `ping` and `nslookup` to verify connectivity and name resolution.
+- **Documentation:** why recording commands, configuration and screenshots matters in a professional cybersecurity project.
+
+---
+
+## 🔐 Security & Ethical Use
+
+I built this laboratory strictly for **educational purposes only**. I will only test systems that I own or have explicit written permission to test.
+
+---
+
+## 🔗 Tools & Resources
+
+- VirtualBox: https://virtualbox.org/wiki/Downloads
+- Kali Linux: https://kali.org/get-kali
+
+---
+
+## 👤 Author
+
+**<Yuvraj Dharmendra Yadav>**
+Cybersecurity Intern, Networkwalks
+
+LinkedIn: <www.linkedin.com/in/yuvraj-yadav-77205642b>
+
+---
+
+## 📌 Project Information
+
+| | |
+|---|---|
+| **Program Name** | Cybersecurity at Networkwalks |
+| **Week** | 01 |
+| **Project** | Cybersecurity & Pentesting Lab Setup |
+| **Repository** | GitHub |
