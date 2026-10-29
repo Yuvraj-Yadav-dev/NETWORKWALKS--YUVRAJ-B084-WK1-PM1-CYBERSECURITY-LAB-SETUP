@@ -79,7 +79,7 @@ I chose a NAT Network because multiple VMs on the same NAT Network can communica
 ### Step 3. Import and Start Kali Linux
 I imported the Kali Linux VirtualBox image (`kali-linux-2026.3-virtualbox-amd64`) into VirtualBox, connected it to `NatNetwork`, and started the VM. Kali booted successfully to the desktop.
 
-![Kali Linux Desktop](images/03-kali-desktop(2).png)
+![Kali Linux Desktop](images/03-kali-desktop (2).png)
 
 ### Step 4. Verify the Kali IP Address
 I opened the Kali terminal and checked the IP configuration with `ip a`. The `eth0` interface is `UP` with the address `10.0.0.2/24`.
@@ -88,7 +88,7 @@ I opened the Kali terminal and checked the IP configuration with `ip a`. The `et
 ip a
 ```
 
-![ip a output](images/04-ip-address(2).png)
+![ip a output](images/04-ip-address (2).png)
 
 ---
 
